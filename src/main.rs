@@ -1,5 +1,6 @@
 mod mnemonic;
 mod address;
+mod logger;
 
 use bitcoin::Network;
 
