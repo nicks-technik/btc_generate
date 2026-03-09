@@ -26,9 +26,9 @@
 
 ## Phase 3: Parallelization & CSV Logging
 
-- [ ] Task: Implement CSV logging
-    - [ ] Create struct for log entries with Serde support
-    - [ ] Implement CSV writer logic
+- [x] Task: Implement CSV logging (c0bea06)
+    - [x] Create struct for log entries with Serde support
+    - [x] Implement CSV writer logic
 - [ ] Task: Integrate `rayon` for parallel batch generation
     - [ ] Parallelize the generation loop
     - [ ] Add unit tests for parallel processing
