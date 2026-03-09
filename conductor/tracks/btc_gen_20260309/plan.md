@@ -18,8 +18,8 @@
     - [x] Setup HD wallet derivation logic
 - [x] Task: Implement Legacy address derivation (P2PKH) (f049d50)
     - [x] Add unit tests for Legacy derivation
-- [ ] Task: Implement SegWit address derivation (P2WPKH)
-    - [ ] Add unit tests for SegWit derivation
+- [x] Task: Implement SegWit address derivation (P2WPKH) (0437062)
+    - [x] Add unit tests for SegWit derivation
 - [ ] Task: Implement Taproot address derivation (P2TR)
     - [ ] Add unit tests for Taproot derivation
 - [ ] Task: Conductor - User Manual Verification 'Phase 2' (Protocol in workflow.md)
