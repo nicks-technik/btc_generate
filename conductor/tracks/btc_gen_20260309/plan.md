@@ -7,9 +7,9 @@
     - [x] Configure `Cargo.toml` with basic metadata
 - [x] Task: Add core dependencies (ac60469)
     - [x] Add `bitcoin`, `bip39`, `tiny-hdk`, `clap`, `serde`, `csv`, `rayon`
-- [ ] Task: Implement basic 12-word mnemonic generation
-    - [ ] Implement BIP-39 mnemonic generation logic
-    - [ ] Add unit tests for mnemonic generation (TDD)
+- [x] Task: Implement basic 12-word mnemonic generation (9eaf44e)
+    - [x] Implement BIP-39 mnemonic generation logic
+    - [x] Add unit tests for mnemonic generation (TDD)
 - [ ] Task: Conductor - User Manual Verification 'Phase 1' (Protocol in workflow.md)
 
 ## Phase 2: Address Derivation & Multi-Format Support
