@@ -12,7 +12,7 @@
     - [x] Add unit tests for mnemonic generation (TDD)
 - [x] Task: Conductor - User Manual Verification 'Phase 1' (Protocol in workflow.md) (b256941)
 
-## Phase 2: Address Derivation & Multi-Format Support
+## Phase 2: Address Derivation & Multi-Format Support [checkpoint: c6f51b1]
 
 - [x] Task: Implement BIP-32/44 key derivation from mnemonic (f434f7a)
     - [x] Setup HD wallet derivation logic
@@ -22,7 +22,7 @@
     - [x] Add unit tests for SegWit derivation
 - [x] Task: Implement Taproot address derivation (P2TR) (3e4732d)
     - [x] Add unit tests for Taproot derivation
-- [ ] Task: Conductor - User Manual Verification 'Phase 2' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 2' (Protocol in workflow.md) (c6f51b1)
 
 ## Phase 3: Parallelization & CSV Logging
 
