@@ -32,6 +32,6 @@
 - [x] Task: Integrate `rayon` for parallel batch generation (5b772f8)
     - [x] Parallelize the generation loop
     - [x] Add unit tests for parallel processing
-- [ ] Task: Build CLI interface with `clap`
-    - [ ] Implement command-line arguments for count, threads, format, and output
+- [x] Task: Build CLI interface with `clap` (5302dc8)
+    - [x] Implement command-line arguments for count, threads, format, and output
 - [ ] Task: Conductor - User Manual Verification 'Phase 3' (Protocol in workflow.md)
