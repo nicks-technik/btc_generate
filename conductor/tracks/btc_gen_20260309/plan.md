@@ -20,8 +20,8 @@
     - [x] Add unit tests for Legacy derivation
 - [x] Task: Implement SegWit address derivation (P2WPKH) (0437062)
     - [x] Add unit tests for SegWit derivation
-- [ ] Task: Implement Taproot address derivation (P2TR)
-    - [ ] Add unit tests for Taproot derivation
+- [x] Task: Implement Taproot address derivation (P2TR) (3e4732d)
+    - [x] Add unit tests for Taproot derivation
 - [ ] Task: Conductor - User Manual Verification 'Phase 2' (Protocol in workflow.md)
 
 ## Phase 3: Parallelization & CSV Logging
