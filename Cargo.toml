@@ -4,3 +4,10 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+bip39 = { version = "2.2.2", features = ["rand"] }
+bitcoin = { version = "0.32.8", features = ["rand", "serde"] }
+clap = { version = "4.5.60", features = ["derive"] }
+csv = "1.4.0"
+rand = "0.10.0"
+rayon = "1.11.0"
+serde = { version = "1.0.228", features = ["derive"] }
