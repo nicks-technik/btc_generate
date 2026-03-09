@@ -1,5 +1,6 @@
 mod mnemonic;
 
 fn main() {
-    println!("Hello, world!");
+    let mnemonic = mnemonic::generate_mnemonic();
+    println!("Generated Mnemonic: {}", mnemonic);
 }
