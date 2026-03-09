@@ -14,8 +14,8 @@
 
 ## Phase 2: Address Derivation & Multi-Format Support
 
-- [ ] Task: Implement BIP-32/44 key derivation from mnemonic
-    - [ ] Setup HD wallet derivation logic
+- [x] Task: Implement BIP-32/44 key derivation from mnemonic (f434f7a)
+    - [x] Setup HD wallet derivation logic
 - [ ] Task: Implement Legacy address derivation (P2PKH)
     - [ ] Add unit tests for Legacy derivation
 - [ ] Task: Implement SegWit address derivation (P2WPKH)
