@@ -1,6 +1,6 @@
 # Implementation Plan: BTC Mnemonic & Address Generator
 
-## Phase 1: Project Scaffolding & Basic Mnemonic Generation
+## Phase 1: Project Scaffolding & Basic Mnemonic Generation [checkpoint: b256941]
 
 - [x] Task: Setup Rust project with `cargo init` (a27de9e)
     - [x] Initialize cargo project
@@ -10,7 +10,7 @@
 - [x] Task: Implement basic 12-word mnemonic generation (9eaf44e)
     - [x] Implement BIP-39 mnemonic generation logic
     - [x] Add unit tests for mnemonic generation (TDD)
-- [ ] Task: Conductor - User Manual Verification 'Phase 1' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 1' (Protocol in workflow.md) (b256941)
 
 ## Phase 2: Address Derivation & Multi-Format Support
 
