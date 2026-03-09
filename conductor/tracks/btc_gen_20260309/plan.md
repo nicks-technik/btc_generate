@@ -5,8 +5,8 @@
 - [x] Task: Setup Rust project with `cargo init` (a27de9e)
     - [x] Initialize cargo project
     - [x] Configure `Cargo.toml` with basic metadata
-- [ ] Task: Add core dependencies
-    - [ ] Add `bitcoin`, `bip39`, `tiny-hdk`, `clap`, `serde`, `csv`, `rayon`
+- [x] Task: Add core dependencies (ac60469)
+    - [x] Add `bitcoin`, `bip39`, `tiny-hdk`, `clap`, `serde`, `csv`, `rayon`
 - [ ] Task: Implement basic 12-word mnemonic generation
     - [ ] Implement BIP-39 mnemonic generation logic
     - [ ] Add unit tests for mnemonic generation (TDD)
