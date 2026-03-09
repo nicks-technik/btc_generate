@@ -2,9 +2,9 @@
 
 ## Phase 1: Project Scaffolding & Basic Mnemonic Generation
 
-- [ ] Task: Setup Rust project with `cargo init`
-    - [ ] Initialize cargo project
-    - [ ] Configure `Cargo.toml` with basic metadata
+- [x] Task: Setup Rust project with `cargo init` (a27de9e)
+    - [x] Initialize cargo project
+    - [x] Configure `Cargo.toml` with basic metadata
 - [ ] Task: Add core dependencies
     - [ ] Add `bitcoin`, `bip39`, `tiny-hdk`, `clap`, `serde`, `csv`, `rayon`
 - [ ] Task: Implement basic 12-word mnemonic generation
