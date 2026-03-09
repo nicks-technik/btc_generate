@@ -16,8 +16,8 @@
 
 - [x] Task: Implement BIP-32/44 key derivation from mnemonic (f434f7a)
     - [x] Setup HD wallet derivation logic
-- [ ] Task: Implement Legacy address derivation (P2PKH)
-    - [ ] Add unit tests for Legacy derivation
+- [x] Task: Implement Legacy address derivation (P2PKH) (f049d50)
+    - [x] Add unit tests for Legacy derivation
 - [ ] Task: Implement SegWit address derivation (P2WPKH)
     - [ ] Add unit tests for SegWit derivation
 - [ ] Task: Implement Taproot address derivation (P2TR)
