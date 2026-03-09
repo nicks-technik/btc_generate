@@ -1,0 +1,8 @@
+{
+  "track_id": "btc_gen_20260309",
+  "type": "feature",
+  "status": "new",
+  "created_at": "2026-03-09T10:00:00Z",
+  "updated_at": "2026-03-09T10:00:00Z",
+  "description": "Implement parallelized 12-word mnemonic generation and multi-format Bitcoin address derivation with CSV logging"
+}
