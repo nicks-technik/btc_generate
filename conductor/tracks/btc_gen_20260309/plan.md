@@ -29,9 +29,9 @@
 - [x] Task: Implement CSV logging (c0bea06)
     - [x] Create struct for log entries with Serde support
     - [x] Implement CSV writer logic
-- [ ] Task: Integrate `rayon` for parallel batch generation
-    - [ ] Parallelize the generation loop
-    - [ ] Add unit tests for parallel processing
+- [x] Task: Integrate `rayon` for parallel batch generation (5b772f8)
+    - [x] Parallelize the generation loop
+    - [x] Add unit tests for parallel processing
 - [ ] Task: Build CLI interface with `clap`
     - [ ] Implement command-line arguments for count, threads, format, and output
 - [ ] Task: Conductor - User Manual Verification 'Phase 3' (Protocol in workflow.md)
