@@ -105,6 +105,27 @@ cargo run -- --count 100 --threads 4 --format taproot --network testnet --path "
 - `-P, --passphrase <PASSPHRASE>`: Optional BIP-39 passphrase (default: None).
 - `-o, --output <OUTPUT>`: Output CSV file path (default: `generated_addresses.csv`).
 
+## Scripts
+
+### `setup_debian.sh`
+A helper script to prepare a fresh Debian/Ubuntu system. It installs `build-essential`, `pkg-config`, `libssl-dev`, and the Rust toolchain.
+
+```bash
+chmod +x setup_debian.sh
+./setup_debian.sh
+```
+
+### `auto_generate.sh`
+An autonomous generation script that runs the generator in a continuous loop with safety checks:
+- **CPU Optimization:** Automatically uses `max cores - 1` to keep the system responsive.
+- **Disk Safety:** Monitors disk space and stops automatically if free space falls below **1 GB**.
+- **Batching:** Generates in batches of 100,000 to balance performance with frequent safety checks.
+
+```bash
+chmod +x auto_generate.sh
+./auto_generate.sh
+```
+
 ## Security Warning
 
 **CRITICAL:** This tool logs mnemonic phrases to a CSV file. While this is useful for research and testing, it is **highly insecure** for production funds. Anyone with access to the CSV file can steal the funds associated with those mnemonics. Use with extreme caution and never use generated mnemonics for storing significant value unless you understand the risks.

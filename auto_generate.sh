@@ -23,11 +23,11 @@ while true; do
         break
     fi
 
-    echo "[$(date '+%Y-%m-%d %H:%M:%S')] Generating batch of 5000 addresses..."
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] Generating batch of 100000 addresses..."
     
     # Run the generator
     # We use a batch size of 5000 to check disk space frequently
-    cargo run --release -- --count 5000 --threads "$THREADS" --format segwit --network bitcoin
+    cargo run --release -- --count 100000 --threads "$THREADS" --format segwit --network bitcoin
     
     if [ $? -ne 0 ]; then
         echo "Error detected during execution. Restarting in 5 seconds..."
