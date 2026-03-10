@@ -24,7 +24,7 @@
     - [x] Add unit tests for Taproot derivation
 - [x] Task: Conductor - User Manual Verification 'Phase 2' (Protocol in workflow.md) (c6f51b1)
 
-## Phase 3: Parallelization & CSV Logging
+## Phase 3: Parallelization & CSV Logging [checkpoint: c9f63aa]
 
 - [x] Task: Implement CSV logging (c0bea06)
     - [x] Create struct for log entries with Serde support
@@ -34,4 +34,4 @@
     - [x] Add unit tests for parallel processing
 - [x] Task: Build CLI interface with `clap` (5302dc8)
     - [x] Implement command-line arguments for count, threads, format, and output
-- [ ] Task: Conductor - User Manual Verification 'Phase 3' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 3' (Protocol in workflow.md) (c9f63aa)
