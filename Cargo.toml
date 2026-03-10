@@ -7,7 +7,10 @@ edition = "2024"
 bip39 = { version = "2.2.2", features = ["rand"] }
 bitcoin = { version = "0.32.8", features = ["rand", "serde"] }
 clap = { version = "4.5.60", features = ["derive"] }
+chrono = { version = "0.4.40", features = ["serde"] }
 csv = "1.4.0"
+indicatif = { version = "0.17.11", features = ["rayon"] }
 rand = "0.10.0"
 rayon = "1.11.0"
 serde = { version = "1.0.228", features = ["derive"] }
+uuid = { version = "1.15.1", features = ["v4", "serde"] }

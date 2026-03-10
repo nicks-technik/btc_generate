@@ -12,10 +12,7 @@
 - **bip39:** A crate for generating and validating BIP-39 mnemonic phrases.
 - **tiny-hdk:** Provides BIP-32 (hierarchical deterministic) key derivation support.
 
-## Tooling & CLI
-- **clap:** A robust and efficient library for building command-line interfaces.
-- **serde:** For high-performance serialization and deserialization of log data.
-- **csv:** For writing generated mnemonics and addresses to structured CSV files.
+- [x] **indicatif:** For showing a progress bar during batch generation, with `rayon` integration.
 
 ## Development & Testing
 - **cargo test:** Rust's built-in testing framework for unit and integration tests.
