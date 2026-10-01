@@ -1,2 +1,7 @@
 /target
-bitcoin_generated_addresses.csv
+# Generator output contains real mnemonics — never commit it, regardless
+# of the --output name (defaults: <network>_generated_addresses.csv;
+# README examples: generated_addresses.csv, my_keys.csv).
+*_generated_addresses.csv
+generated_addresses.csv
+my_keys.csv
